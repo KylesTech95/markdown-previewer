@@ -1,0 +1,33 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#inputContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: red;;
+}
+#prev-con,#edit-con{
+  width: 50%;
+}
+
+#editor,#preview{
+  height: 100vh;
+}
+#editor{
+  resize: none;
+  background: rgb(159, 159, 213);
+  width: 50vw;
+  outline: none;
+}
+#preview{
+  background: rgb(120, 120, 217);
+  color: ghostWhite;
+  width: 50vw;
+  padding-left: 2rem;
+}
+
